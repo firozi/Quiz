@@ -66,6 +66,7 @@ function CheckAns(AnsOption,isCorrect){
           }
           else{
             AnsOption.classList.add("incorrect")
+            score--;
           }
     })
 }
